@@ -30,6 +30,9 @@
   overflow-x: scroll;
   overflow-y: hidden;
 }
+.cards::-webkit-scrollbar{
+  display: none;
+}
 
 .card {
   margin-right: 15px;
@@ -84,4 +87,9 @@
 .recommendations .heading span {
   font-size: 24px;
   color: #002f34;
+}
+.true {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

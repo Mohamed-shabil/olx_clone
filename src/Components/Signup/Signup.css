@@ -14,6 +14,7 @@
     border-left-color: transparent;
     border-right-color: transparent;
     outline-color: transparent;
+    width: 300px;
   }
   
   .signupParentDiv button {
@@ -23,7 +24,17 @@
     background-color: #002f34;
     color: whitesmoke;
     font-weight: 900;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+  } 
+  .logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  
   .signupParentDiv button:hover {
     background-color: white;
     color: #002f34;
