@@ -2,10 +2,8 @@ import firebase from "firebase";
 import 'firebase/auth'
 import 'firebase/firestore'
 
-
-import {getStorage} from 'firebase/storage'
 const firebaseConfig = {
-    apiKey: "AIzaSyC4wlLmpiaEoW1g5TJHPvQ8xU0vMcyJDic",
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "olx-clone-22cea.firebaseapp.com",
     projectId: "olx-clone-22cea",
     storageBucket: "olx-clone-22cea.appspot.com",
